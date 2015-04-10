@@ -1,4 +1,6 @@
 .idea/
 dist/
+deploy/
+for_deploy/
 node_modules/
 *.iml

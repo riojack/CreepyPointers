@@ -7,7 +7,11 @@
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^0.10.1",
+    "gulp": "^3.8.11",
+    "gulp-clean": "^0.3.1",
+    "gulp-zip": "^3.0.2",
     "hapi": "^8.4.0",
+    "run-sequence": "^1.0.2",
     "strict-loader": "^0.1.2",
     "style-loader": "^0.10.1",
     "webpack": "^1.8.2"
