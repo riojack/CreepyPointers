@@ -8,6 +8,16 @@
 <body>
 
 <div id="canvas-container"></div>
+<div id="logger">
+    <table>
+        <thead>
+            <tr>
+                <th>Agent</th>
+                <th>Message</th>
+            </tr>
+        </thead>
+    </table>
+</div>
 
 <script type="text/javascript">
     var appInstance = new App({ debug: true, document: document, attachSelector: 'div#canvas-container', canvasHeight: 450, canvasWidth: 850 });

@@ -31,3 +31,8 @@ gulp.task('deploy', function () {
     'predeploy-step4'
   );
 });
+
+gulp.task('xdeploy', function () {
+  return gulp.src('./deploy', {read: false})
+    .pipe(clean());
+});
