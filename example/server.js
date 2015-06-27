@@ -1,8 +1,8 @@
 var Hapi = require('hapi'),
 
-  server = new Hapi.Server({ debug: { request: [ 'error' ] }});
+  server = new Hapi.Server({debug: {request: ['error']}});
 
-server.connection({ port: 3000 });
+server.connection({port: 3000});
 
 server.route({
   method: 'GET',

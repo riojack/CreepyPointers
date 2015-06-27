@@ -1,8 +1,8 @@
 body {
-    font-family: 'trebuchet ms', 'arial', sans-serif;
+  font-family: 'trebuchet ms', 'arial', sans-serif;
 }
 
 canvas.cnvs {
-    border: 1px solid #636c7d;
-    border-radius: 4px;
+  border: 1px solid #636c7d;
+  border-radius: 4px;
 }
